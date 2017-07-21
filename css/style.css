@@ -1,0 +1,213 @@
+.slide1{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg2.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+.san{
+	width: 5rem;
+	height: 5rem;
+	margin: 30% auto;
+	background-color: black;
+	position: relative;
+}
+.san1{
+	overflow: hidden;
+}
+.san1>img:nth-child(1){
+	display: block;
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	width: 100%;
+}
+.san1>img:nth-child(2){
+	display: block;
+	position: absolute;
+	left: 0rem;
+	top: 2.1rem;
+	width: 100%;
+}
+.san1>img:nth-child(3){
+	display: block;
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	width: 48%;
+}
+.san2>img:nth-child(1){
+	display: block;
+	position: absolute;
+	left: 0rem;
+	top: 2rem;
+	width: 19.5%;
+}
+.san2>img:nth-child(2){
+	display: block;
+	position: absolute;
+	left: 1.02rem;
+	top: 1rem;
+	width: 28%;
+}
+.san2>img:nth-child(3){
+	display: block;
+	position: absolute;
+	left: 1.2rem;
+	top: 2.1rem;
+	width: 8%;
+}
+.san2>img:nth-child(4){
+	display: block;
+	position: absolute;
+	left: 1.9rem;
+	top: 0rem;
+	width: 28%;
+}
+.san2>img:nth-child(5){
+	display: block;
+	position: absolute;
+	left: 2.6rem;
+	top: 0rem;
+	width: 13%;
+}
+.san2>img:nth-child(6){
+	display: block;
+	position: absolute;
+	bottom: -0.13rem;
+	right: -0.01rem;
+	width: 3.77rem;
+	height: 2.1rem;
+}
+.san3>img:nth-child(1){
+	display: block;
+	position: absolute;
+	left: 0.18rem;
+	top: 2.2rem;
+	width: 11.5%;
+}
+.san3>img:nth-child(2){
+	display: block;
+	position: absolute;
+	left: 1rem;
+	top: 1.8rem;
+	width:4rem;
+	height: 3.3rem;
+}
+.san3>img:nth-child(3){
+	display: block;
+	position: absolute;
+	left: 1.88rem;
+	top: 1.96rem;
+	width:0.7rem;
+	height: 1.45rem;
+}
+.san3>img:nth-child(4){
+	display: block;
+	position: absolute;
+	left: 1.25rem;
+	top: 4.43rem;
+/*	width:0.47rem;*/
+	height: 0.7rem;
+}
+.san3>img:nth-child(5){
+	display: block;
+	position: absolute;
+	left: 2.222rem;
+	top: 4.43rem;
+	/*width:0.47rem;*/
+	height: 0.7rem;
+}
+.san3>img:nth-child(6){
+	display: block;
+	position: absolute;
+	left: 3.11rem;
+	top: 4.43rem;
+/*	width:0.47rem;*/
+	height: 0.7rem;
+}
+.san3>img:nth-child(7){
+	display: block;
+	position: absolute;
+	left: 3.9rem;
+	top: 4.43rem;
+	/*width:0.47rem;*/
+	height: 0.7rem;
+}
+.san3>img:nth-child(8){
+	display: block;
+	position: absolute;
+	left: 4.5rem;
+	top: 4.43rem;
+	/*width:0.47rem;*/
+	height: 0.7rem;
+}
+.s1zi{
+	position: absolute;
+	left: 2rem;
+	top: 9rem;
+}
+.s1zi img{
+	width: 110%;
+	display: block;
+}
+.liuxing>img:nth-child(1){
+	display: block;
+	position: absolute;
+	left: 0.75rem;
+	top: 7.5rem;
+	z-index: -1;
+	width: 60%;
+}
+.liuxing>img:nth-child(2){
+	display: block;
+	position: absolute;
+	left: 0.2rem;
+	top: 2rem;
+	z-index: -1;
+	width: 100%;
+}
+.liuxing>img:nth-child(3){
+	display: block;
+	position: absolute;
+	left: 3.75rem;
+	top: 1rem;
+	z-index: -1;
+	width: 40%;
+	animation: liuxing1 4s linear infinite;
+    /*-webkit-animation: move 2s;
+    -webkit-animation-name:liuxing1;
+    -webkit-animation-fill-mode:forwards;
+     -webkit-animation-iteration-count:5;*/
+}
+.liuxing>img:nth-child(4){
+	display: block;
+	position: absolute;
+	left: 3.75rem;
+	top: 10.5rem;
+	z-index: -1;
+	width: 50%;
+	animation: liuxing2 2s linear infinite;
+}
+.liuxing>img:nth-child(5){
+	display: block;
+	position: absolute;
+	left: 0.5rem;
+	top: 7.3rem;
+	z-index: -1;
+	width: 20%;
+	animation: liuxing3 3s linear infinite;
+}
+@-webkit-keyframes liuxing1{
+	from{left: 7rem;top: 3rem;}
+	to{left: -3rem;top: -1rem;}
+}
+@-webkit-keyframes liuxing2{
+	from{left: 9rem;top: 7rem;}
+	to{left: -3rem;top: 12rem;}
+}
+@-webkit-keyframes liuxing3{
+	from{left: -1rem;top: 5.5rem;}
+	to{left: 7rem;top: 10rem;}
+}

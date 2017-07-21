@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			(function (doc, win) {
+				
+		        var docEle = doc.documentElement,
+		                resizeEvent = 'orientationchange' in window ? 'orientationchange' : 'resize';
+		        var recalCulate = function () {
+		            var width = docEle.clientWidth;
+		            docEle.style.fontSize = 100 * (width / 750) + 'px';
+		        };
+		
+		        recalCulate();
+		
+		        if (!doc.addEventListener) return;
+		        win.addEventListener(resizeEvent, recalCulate, false);
+		    })(document, window);
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slide1">
+			<div class="san">
+				<div class="san1">
+					<img src="img/letter-13.png" alt="" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0.5s" />
+					<img src="img/letter-14.png" alt="" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.5s" />
+					<img src="img/letter-16.png" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s"/>
+				</div>
+				<div class="san2">	
+					<img src="img/letter-8.png" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="0.8s" />
+					<img src="img/letter-15.png" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="0.9s" />
+					<img src="img/letter-7.png" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="1.0s" />
+					<img src="img/letter-4.png" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="1.2s" />
+					<img src="img/letter-5.png" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="1.4s" />
+					<img src="img/letter-6.png" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="1.6s" />
+				</div>
+				<div class="san3">
+					<img src="img/letter-10.png" alt="" class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.3s" />
+					<img src="img/letter-9.png" alt="" class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.8s" />
+					<img src="img/letter-2.png" alt="" class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.8s" swiper-animate-delay="2.3s" />
+					<img src="img/letter-11.png" alt="" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="2.8s" />
+					<img src="img/letter-12.png" alt="" class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.8s" swiper-animate-delay="3.3s" />
+					<img src="img/letter-1.png" alt="" class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.8s" swiper-animate-delay="3.6s" />
+					<img src="img/letter-2.png" alt="" class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.8s" swiper-animate-delay="3.9s" />
+					<img src="img/letter-3.png" alt="" class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.8s" swiper-animate-delay="4.2s" />
+				</div>
+			</div>	
+			<div class="s1zi">
+				<img src="img/2015chuangxiang.png" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="4.5s"/>
+			</div>
+			<div class="liuxing">
+			<img src="img/dian-1.png" class="ani" swiper-animate-effect="flash" swiper-animate-duration="1.5s" swiper-animate-delay="5s"/>
+			<img src="img/dian-2.png" alt="" class="ani" swiper-animate-effect="flash" swiper-animate-duration="1.5s" swiper-animate-delay="5s" />
+			<img src="img/liuxing1.png" alt="" />
+			<img src="img/liuxing2.png" alt="" />
+			<img src="img/liuxing3.png" alt="" />
+			</div>
+				</div>
+				<div class="swiper-slide slide2"> slide2</div>
+				<div class="swiper-slide slide3"> slide3</div>
+				<div class="swiper-slide slide4"> slide4</div>
+				<div class="swiper-slide slide5"> slide5</div>
+				<div class="swiper-slide slide6"> slide6</div>
+				<div class="swiper-slide slide7"> slide7</div>
+				<div class="swiper-slide slide8"> slide8</div>
+				<div class="swiper-slide slide9"> slide9</div>
+				<div class="swiper-slide slide10"> slide10</div>
+				<div class="swiper-slide slide11"> slide11</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.91.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.animate.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
